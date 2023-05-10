@@ -1,0 +1,16 @@
+.header .toggle span {
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .header.open .container ul {
+        right: calc(100% - 220px);
+    }
+}
+
+@media (max-width: 991px) {
+    .header .container ul::before {
+        border-width: 15px;
+        right: calc(100% - 30px);
+    }
+}
